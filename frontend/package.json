@@ -45,7 +45,7 @@
   },
   "overrides": {
     "puppeteer": "18.1.0"
-  }
+  },
   "scripts": {
     "start": "REACT_APP_WILCO_ID=${WILCO_ID:-\"$(cat ../.wilco)\"} react-scripts start",
     "build": "react-scripts build",
