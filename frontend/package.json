@@ -40,15 +40,7 @@
     "sass": "^1.45.0",
     "superagent": "^3.8.2",
     "superagent-promise": "^1.1.0",
-    "typescript": "^4.8.2",
-    "autoprefixer": "10.4.5",
-    "puppeteer": "18.1.0",
-    "puppeteer-core": "18.1.0"
-  },
-  "overrides": {
-    "autoprefixer": "10.4.5",
-    "puppeteer": "18.1.0",
-    "puppeteer-core": "18.1.0"
+    "typescript": "^4.8.2"
   },
   "scripts": {
     "start": "REACT_APP_WILCO_ID=${WILCO_ID:-\"$(cat ../.wilco)\"} react-scripts start",
@@ -80,8 +72,6 @@
     ]
   },
   "resolutions": {
-    "autoprefixer": "10.4.5",
-    "puppeteer": "18.1.0",
-    "puppeteer-core": "18.1.0"
+    "autoprefixer": "10.4.5"
   }
 }
