@@ -45,8 +45,8 @@
     "puppeteer-core": "18.1.0"
   },
   "overrides": {
-    "puppeteer": "$puppeteer",
-    "puppeteer-core": "$puppeteer-core"
+    "puppeteer": "18.1.0",
+    "puppeteer-core": "18.1.0"
   },
   "scripts": {
     "start": "REACT_APP_WILCO_ID=${WILCO_ID:-\"$(cat ../.wilco)\"} react-scripts start",
@@ -79,7 +79,7 @@
   },
   "resolutions": {
     "autoprefixer": "10.4.5",
-    "puppeteer": "$puppeteer",
-    "puppeteer-core": "$puppeteer-core"
+    "puppeteer": "18.1.0",
+    "puppeteer-core": "18.1.0"
   }
 }
